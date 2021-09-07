@@ -47,12 +47,12 @@ public class Room {
     }
 
     @Column(name = "date", nullable = false)
-    public String getData() {
+    public String getDate() {
         return date;
     }
 
-    public void setData(String data) {
-        this.date = data;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     @Column(name = "startHour", nullable = false)
